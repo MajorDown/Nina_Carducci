@@ -113,16 +113,17 @@ button {
 	justify-content: center;
 }
 
-.nav-pills .nav-link.active,
+.nav-pills .nav-link {
+	color: #000;
+	cursor: pointer;
+}
+
+.nav-pills .nav-link.active-tag,
 .nav-pills .show>.nav-link {
 	color: #fff;
 	background-color: #7a6f10;
 	font-weight: bolder;
 	border-radius: 0;
-}
-
-.nav-pills .nav-link {
-	color: #000
 }
 
 .item-column {
@@ -144,6 +145,7 @@ button {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 
 .mg-prev,
